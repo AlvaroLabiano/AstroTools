@@ -173,7 +173,7 @@ class mrsChanell(QDialog):
 
                 h, labels = self.ax1.get_legend_handles_labels()
                 self.ax1.legend(labels=labels, loc="center left"
-                , bbox_to_anchor=(0.8, 1.2))
+                , bbox_to_anchor=(0.8, 1.1))
 
                 self.ax1.set_xlim([minL[0], maxL[0]])
 
